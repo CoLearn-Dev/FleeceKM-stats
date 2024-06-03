@@ -1,5 +1,5 @@
 if [ -d "./data/google-natural-questions/v1.0" ]; then
-    echo "Dataset already downloaded"
+    echo "Raw Dataset already downloaded"
 else
     mkdir -p ./data/google-natural-questions
 
@@ -7,15 +7,15 @@ else
 fi
 
 if [ -f "./data/google-natural-questions/simplified-nq-train.jsonl" ]; then
-    echo "Dataset already downloaded"
+    echo "Train dataset already simplified"
 else
-    gsutil -m cp gs://natural_questions/v1.0-simplified/simplified-nq-train.jsonl.gz ./data/google-natural-questions/simplified-nq-train.jsonl.gz
+    python ./GoogleNQ/simplify_nq_data.py --data_dir ./data/google-natural-questions/v1.0/train --output_dir ./data/google-natural-questions/
 
     gzip -d ./data/google-natural-questions/simplified-nq-train.jsonl.gz
 fi
 
 if [ -f "./data/google-natural-questions/simplified-nq-dev.jsonl" ]; then
-    echo "Dataset already downloaded"
+    echo "Dev dataset already simplified"
 else
     python ./GoogleNQ/simplify_nq_data.py --data_dir ./data/google-natural-questions/v1.0/dev --output_dir ./data/google-natural-questions/
 

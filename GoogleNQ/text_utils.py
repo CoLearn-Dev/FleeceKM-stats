@@ -76,11 +76,16 @@ def get_nq_tokens(simplified_nq_example):
     return simplified_nq_example["document_text"].split(" ")
 
 
+def get_text_from_tokens(tokens, start_token, end_token):
+    """Returns the text corresponding to the token range."""
+    return " ".join(tokens[start_token:end_token])
+
+
 def simplify_nq_example(nq_example):
     r"""Returns dictionary with blank separated tokens in `document_text` field.
 
     Removes byte offsets from annotations, and removes `document_html` and
-    `document_tokens` fields. All annotations in the ouput are represented as
+    `document_tokens` fields. All annotations in the output are represented as
     [start_token, end_token) offsets into the blank separated tokens in the
     `document_text` field.
 
@@ -112,20 +117,30 @@ def simplify_nq_example(nq_example):
         return re.sub(" ", "_", token["token"])
 
     text = " ".join([_clean_token(t) for t in nq_example["document_tokens"]])
+    tokens = text.split(" ")
 
     def _remove_html_byte_offsets(span):
         if "start_byte" in span:
             del span["start_byte"]
-
         if "end_byte" in span:
             del span["end_byte"]
-
         return span
 
-    def _clean_annotation(annotation):
-        annotation["long_answer"] = _remove_html_byte_offsets(annotation["long_answer"])
+    def _convert_tokens_to_text(annotation):
+        if annotation["long_answer"]["start_token"] != -1:
+            annotation["long_answer"]["text"] = get_text_from_tokens(
+                tokens,
+                annotation["long_answer"]["start_token"],
+                annotation["long_answer"]["end_token"],
+            )
         annotation["short_answers"] = [
-            _remove_html_byte_offsets(sa) for sa in annotation["short_answers"]
+            {
+                **sa,
+                "text": get_text_from_tokens(
+                    tokens, sa["start_token"], sa["end_token"]
+                ),
+            }
+            for sa in annotation["short_answers"]
         ]
         return annotation
 
@@ -137,7 +152,10 @@ def simplify_nq_example(nq_example):
         "long_answer_candidates": [
             _remove_html_byte_offsets(c) for c in nq_example["long_answer_candidates"]
         ],
-        "annotations": [_clean_annotation(a) for a in nq_example["annotations"]],
+        "annotations": [
+            _convert_tokens_to_text(_remove_html_byte_offsets(a))
+            for a in nq_example["annotations"]
+        ],
     }
 
     if len(get_nq_tokens(simplified_nq_example)) != len(nq_example["document_tokens"]):
