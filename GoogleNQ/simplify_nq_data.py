@@ -23,6 +23,7 @@ NQ format. If you wish to use the simplified format, then you should call
 `text_utils.simplify_nq_data` in your submitted system.
 """
 
+
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
@@ -47,6 +48,12 @@ flags.DEFINE_string(
     "files, matching the pattern `nq-<split>-??.jsonl.gz`.",
 )
 
+flags.DEFINE_string(
+    "output_dir",
+    None,
+    "Path to directory where the simplified NQ files will be saved.",
+)
+
 
 def main(_):
     """Runs `text_utils.simplify_nq_example` over all shards of a split.
@@ -55,7 +62,8 @@ def main(_):
     as the input shards.
     """
     split = os.path.basename(FLAGS.data_dir)
-    outpath = os.path.join(FLAGS.data_dir, "simplified-nq-{}.jsonl.gz".format(split))
+    output_dir = FLAGS.output_dir if FLAGS.output_dir else FLAGS.data_dir
+    outpath = os.path.join(output_dir, "simplified-nq-{}.jsonl.gz".format(split))
     with gzip.open(outpath, "wb") as fout:
         num_processed = 0
         start = time.time()
@@ -79,4 +87,6 @@ def main(_):
 
 
 if __name__ == "__main__":
+    flags.mark_flag_as_required("data_dir")
+    flags.mark_flag_as_required("output_dir")
     app.run(main)
