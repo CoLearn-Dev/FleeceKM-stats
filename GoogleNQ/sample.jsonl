@@ -1,0 +1,298 @@
+{
+    "annotations": [
+        {
+            "annotation_id": 2703952710185985000,
+            "long_answer": {
+                "candidate_index": 34,
+                "end_byte": 68293,
+                "end_token": 1720,
+                "start_byte": 66346,
+                "start_token": 1554,
+                "text": "<Table> <Tr> <Th> Major Crops in the USA </Th> <Th> 1997 ( in US $ billions ) </Th> <Th> 2014 ( in US $ billions ) </Th> </Tr> <Tr> <Td> Corn </Td> <Td> $24.4 </Td> <Td> $52.4 </Td> </Tr> <Tr> <Td> Soybeans </Td> <Td> $17.7 </Td> <Td> $40.3 </Td> </Tr> <Tr> <Td> Wheat </Td> <Td> $8.6 </Td> <Td> $11.9 </Td> </Tr> <Tr> <Td> Alfalfa </Td> <Td> $8.3 </Td> <Td> $10.8 </Td> </Tr> <Tr> <Td> Cotton </Td> <Td> $6.1 </Td> <Td> $5.1 </Td> </Tr> <Tr> <Td> Hay , ( non-Alfalfa ) </Td> <Td> $5.1 </Td> <Td> $8.4 </Td> </Tr> <Tr> <Td> Tobacco </Td> <Td> $3.0 </Td> <Td> $1.8 </Td> </Tr> <Tr> <Td> Rice </Td> <Td> $1.7 </Td> <Td> $3.1 </Td> </Tr> <Tr> <Td> Sorghum </Td> <Td> $1.4 </Td> <Td> $1.7 </Td> </Tr> <Tr> <Td> Barley </Td> <Td> $. 9 </Td> <Td> $. 9 </Td> </Tr> <Tr> <Th> Source </Th> <Th> 1997 USDA - NASS reports , </Th> <Th> 2015 USDA - NASS reports , </Th> </Tr> </Table>"
+            },
+            "short_answers": [
+                {
+                    "end_byte": 66836,
+                    "end_token": 1585,
+                    "start_byte": 66832,
+                    "start_token": 1584,
+                    "text": "Corn"
+                },
+                {
+                    "end_byte": 66961,
+                    "end_token": 1596,
+                    "start_byte": 66953,
+                    "start_token": 1595,
+                    "text": "Soybeans"
+                },
+                {
+                    "end_byte": 67057,
+                    "end_token": 1607,
+                    "start_byte": 67052,
+                    "start_token": 1606,
+                    "text": "Wheat"
+                },
+                {
+                    "end_byte": 67158,
+                    "end_token": 1618,
+                    "start_byte": 67151,
+                    "start_token": 1617,
+                    "text": "Alfalfa"
+                },
+                {
+                    "end_byte": 67256,
+                    "end_token": 1629,
+                    "start_byte": 67250,
+                    "start_token": 1628,
+                    "text": "Cotton"
+                },
+                {
+                    "end_byte": 67363,
+                    "end_token": 1644,
+                    "start_byte": 67341,
+                    "start_token": 1639,
+                    "text": "Hay , ( non-Alfalfa )"
+                },
+                {
+                    "end_byte": 67459,
+                    "end_token": 1655,
+                    "start_byte": 67452,
+                    "start_token": 1654,
+                    "text": "Tobacco"
+                },
+                {
+                    "end_byte": 67550,
+                    "end_token": 1666,
+                    "start_byte": 67546,
+                    "start_token": 1665,
+                    "text": "Rice"
+                },
+                {
+                    "end_byte": 67650,
+                    "end_token": 1677,
+                    "start_byte": 67643,
+                    "start_token": 1676,
+                    "text": "Sorghum"
+                },
+                {
+                    "end_byte": 67747,
+                    "end_token": 1688,
+                    "start_byte": 67741,
+                    "start_token": 1687,
+                    "text": "Barley"
+                }
+            ],
+            "yes_no_answer": "NONE"
+        },
+        {
+            "annotation_id": 18167812781706572000,
+            "long_answer": {
+                "candidate_index": 11,
+                "end_byte": 64238,
+                "end_token": 1478,
+                "start_byte": 61469,
+                "start_token": 1227,
+                "text": "<Table> <Tr> <Td> Millions of Tonnes in </Td> <Td> 2003 </Td> <Td> 2013 </Td> </Tr> <Tr> <Td> Corn </Td> <Td> 256.0 </Td> <Td> 354.0 </Td> </Tr> <Tr> <Td> Cattle meat </Td> <Td> 12.0 </Td> <Td> 11.7 </Td> </Tr> <Tr> <Td> Cow 's milk , whole , fresh </Td> <Td> 77.0 </Td> <Td> 91.0 </Td> </Tr> <Tr> <Td> Chicken meat </Td> <Td> 14.7 </Td> <Td> 17.4 </Td> </Tr> <Tr> <Td> Soybeans </Td> <Td> 67.0 </Td> <Td> 89.0 </Td> </Tr> <Tr> <Td> Pig meat </Td> <Td> 9.1 </Td> <Td> 10.5 </Td> </Tr> <Tr> <Td> Wheat </Td> <Td> 64.0 </Td> <Td> 58.0 </Td> </Tr> <Tr> <Td> Cotton lint </Td> <Td> 4.0 </Td> <Td> 2.8 </Td> </Tr> <Tr> <Td> Hen eggs </Td> <Td> 5.2 </Td> <Td> 5.6 </Td> </Tr> <Tr> <Td> Turkey meat </Td> <Td> 2.5 </Td> <Td> 2.6 </Td> </Tr> <Tr> <Td> Tomatoes </Td> <Td> 11.4 </Td> <Td> 12.6 </Td> </Tr> <Tr> <Td> Potatoes </Td> <Td> 20.8 </Td> <Td> 19.8 </Td> </Tr> <Tr> <Td> Grapes </Td> <Td> 5.9 </Td> <Td> 7.7 </Td> </Tr> <Tr> <Td> Oranges </Td> <Td> 10.4 </Td> <Td> 7.6 </Td> </Tr> <Tr> <Td> Rice , paddy </Td> <Td> 9.1 </Td> <Td> 8.6 </Td> </Tr> <Tr> <Td> Apples </Td> <Td> 3.9 </Td> <Td> 4.1 </Td> </Tr> <Tr> <Td> Sorghum </Td> <Td> 10.4 </Td> <Td> 9.9 </Td> </Tr> <Tr> <Td> Lettuce </Td> <Td> 4.7 </Td> <Td> 3.6 </Td> </Tr> <Tr> <Td> Cottonseed </Td> <Td> 6.0 </Td> <Td> 5.6 </Td> </Tr> <Tr> <Td> Sugar beets </Td> <Td> 30.7 </Td> <Td> 29.8 </Td> </Tr> </Table>"
+            },
+            "short_answers": [],
+            "yes_no_answer": "NONE"
+        },
+        {
+            "annotation_id": 2621982195373552600,
+            "long_answer": {
+                "candidate_index": 34,
+                "end_byte": 68293,
+                "end_token": 1720,
+                "start_byte": 66346,
+                "start_token": 1554,
+                "text": "<Table> <Tr> <Th> Major Crops in the USA </Th> <Th> 1997 ( in US $ billions ) </Th> <Th> 2014 ( in US $ billions ) </Th> </Tr> <Tr> <Td> Corn </Td> <Td> $24.4 </Td> <Td> $52.4 </Td> </Tr> <Tr> <Td> Soybeans </Td> <Td> $17.7 </Td> <Td> $40.3 </Td> </Tr> <Tr> <Td> Wheat </Td> <Td> $8.6 </Td> <Td> $11.9 </Td> </Tr> <Tr> <Td> Alfalfa </Td> <Td> $8.3 </Td> <Td> $10.8 </Td> </Tr> <Tr> <Td> Cotton </Td> <Td> $6.1 </Td> <Td> $5.1 </Td> </Tr> <Tr> <Td> Hay , ( non-Alfalfa ) </Td> <Td> $5.1 </Td> <Td> $8.4 </Td> </Tr> <Tr> <Td> Tobacco </Td> <Td> $3.0 </Td> <Td> $1.8 </Td> </Tr> <Tr> <Td> Rice </Td> <Td> $1.7 </Td> <Td> $3.1 </Td> </Tr> <Tr> <Td> Sorghum </Td> <Td> $1.4 </Td> <Td> $1.7 </Td> </Tr> <Tr> <Td> Barley </Td> <Td> $. 9 </Td> <Td> $. 9 </Td> </Tr> <Tr> <Th> Source </Th> <Th> 1997 USDA - NASS reports , </Th> <Th> 2015 USDA - NASS reports , </Th> </Tr> </Table>"
+            },
+            "short_answers": [
+                {
+                    "end_byte": 66836,
+                    "end_token": 1585,
+                    "start_byte": 66832,
+                    "start_token": 1584,
+                    "text": "Corn"
+                },
+                {
+                    "end_byte": 66961,
+                    "end_token": 1596,
+                    "start_byte": 66953,
+                    "start_token": 1595,
+                    "text": "Soybeans"
+                },
+                {
+                    "end_byte": 67057,
+                    "end_token": 1607,
+                    "start_byte": 67052,
+                    "start_token": 1606,
+                    "text": "Wheat"
+                },
+                {
+                    "end_byte": 67158,
+                    "end_token": 1618,
+                    "start_byte": 67151,
+                    "start_token": 1617,
+                    "text": "Alfalfa"
+                },
+                {
+                    "end_byte": 67256,
+                    "end_token": 1629,
+                    "start_byte": 67250,
+                    "start_token": 1628,
+                    "text": "Cotton"
+                },
+                {
+                    "end_byte": 67363,
+                    "end_token": 1644,
+                    "start_byte": 67341,
+                    "start_token": 1639,
+                    "text": "Hay , ( non-Alfalfa )"
+                },
+                {
+                    "end_byte": 67459,
+                    "end_token": 1655,
+                    "start_byte": 67452,
+                    "start_token": 1654,
+                    "text": "Tobacco"
+                },
+                {
+                    "end_byte": 67550,
+                    "end_token": 1666,
+                    "start_byte": 67546,
+                    "start_token": 1665,
+                    "text": "Rice"
+                },
+                {
+                    "end_byte": 67650,
+                    "end_token": 1677,
+                    "start_byte": 67643,
+                    "start_token": 1676,
+                    "text": "Sorghum"
+                },
+                {
+                    "end_byte": 67747,
+                    "end_token": 1688,
+                    "start_byte": 67741,
+                    "start_token": 1687,
+                    "text": "Barley"
+                }
+            ],
+            "yes_no_answer": "NONE"
+        },
+        {
+            "annotation_id": 6241216130406107000,
+            "long_answer": {
+                "candidate_index": 11,
+                "end_byte": 64238,
+                "end_token": 1478,
+                "start_byte": 61469,
+                "start_token": 1227,
+                "text": "<Table> <Tr> <Td> Millions of Tonnes in </Td> <Td> 2003 </Td> <Td> 2013 </Td> </Tr> <Tr> <Td> Corn </Td> <Td> 256.0 </Td> <Td> 354.0 </Td> </Tr> <Tr> <Td> Cattle meat </Td> <Td> 12.0 </Td> <Td> 11.7 </Td> </Tr> <Tr> <Td> Cow 's milk , whole , fresh </Td> <Td> 77.0 </Td> <Td> 91.0 </Td> </Tr> <Tr> <Td> Chicken meat </Td> <Td> 14.7 </Td> <Td> 17.4 </Td> </Tr> <Tr> <Td> Soybeans </Td> <Td> 67.0 </Td> <Td> 89.0 </Td> </Tr> <Tr> <Td> Pig meat </Td> <Td> 9.1 </Td> <Td> 10.5 </Td> </Tr> <Tr> <Td> Wheat </Td> <Td> 64.0 </Td> <Td> 58.0 </Td> </Tr> <Tr> <Td> Cotton lint </Td> <Td> 4.0 </Td> <Td> 2.8 </Td> </Tr> <Tr> <Td> Hen eggs </Td> <Td> 5.2 </Td> <Td> 5.6 </Td> </Tr> <Tr> <Td> Turkey meat </Td> <Td> 2.5 </Td> <Td> 2.6 </Td> </Tr> <Tr> <Td> Tomatoes </Td> <Td> 11.4 </Td> <Td> 12.6 </Td> </Tr> <Tr> <Td> Potatoes </Td> <Td> 20.8 </Td> <Td> 19.8 </Td> </Tr> <Tr> <Td> Grapes </Td> <Td> 5.9 </Td> <Td> 7.7 </Td> </Tr> <Tr> <Td> Oranges </Td> <Td> 10.4 </Td> <Td> 7.6 </Td> </Tr> <Tr> <Td> Rice , paddy </Td> <Td> 9.1 </Td> <Td> 8.6 </Td> </Tr> <Tr> <Td> Apples </Td> <Td> 3.9 </Td> <Td> 4.1 </Td> </Tr> <Tr> <Td> Sorghum </Td> <Td> 10.4 </Td> <Td> 9.9 </Td> </Tr> <Tr> <Td> Lettuce </Td> <Td> 4.7 </Td> <Td> 3.6 </Td> </Tr> <Tr> <Td> Cottonseed </Td> <Td> 6.0 </Td> <Td> 5.6 </Td> </Tr> <Tr> <Td> Sugar beets </Td> <Td> 30.7 </Td> <Td> 29.8 </Td> </Tr> </Table>"
+            },
+            "short_answers": [],
+            "yes_no_answer": "NONE"
+        },
+        {
+            "annotation_id": 2778447470309495000,
+            "long_answer": {
+                "candidate_index": 34,
+                "end_byte": 68293,
+                "end_token": 1720,
+                "start_byte": 66346,
+                "start_token": 1554,
+                "text": "<Table> <Tr> <Th> Major Crops in the USA </Th> <Th> 1997 ( in US $ billions ) </Th> <Th> 2014 ( in US $ billions ) </Th> </Tr> <Tr> <Td> Corn </Td> <Td> $24.4 </Td> <Td> $52.4 </Td> </Tr> <Tr> <Td> Soybeans </Td> <Td> $17.7 </Td> <Td> $40.3 </Td> </Tr> <Tr> <Td> Wheat </Td> <Td> $8.6 </Td> <Td> $11.9 </Td> </Tr> <Tr> <Td> Alfalfa </Td> <Td> $8.3 </Td> <Td> $10.8 </Td> </Tr> <Tr> <Td> Cotton </Td> <Td> $6.1 </Td> <Td> $5.1 </Td> </Tr> <Tr> <Td> Hay , ( non-Alfalfa ) </Td> <Td> $5.1 </Td> <Td> $8.4 </Td> </Tr> <Tr> <Td> Tobacco </Td> <Td> $3.0 </Td> <Td> $1.8 </Td> </Tr> <Tr> <Td> Rice </Td> <Td> $1.7 </Td> <Td> $3.1 </Td> </Tr> <Tr> <Td> Sorghum </Td> <Td> $1.4 </Td> <Td> $1.7 </Td> </Tr> <Tr> <Td> Barley </Td> <Td> $. 9 </Td> <Td> $. 9 </Td> </Tr> <Tr> <Th> Source </Th> <Th> 1997 USDA - NASS reports , </Th> <Th> 2015 USDA - NASS reports , </Th> </Tr> </Table>"
+            },
+            "short_answers": [
+                {
+                    "end_byte": 66836,
+                    "end_token": 1585,
+                    "start_byte": 66832,
+                    "start_token": 1584,
+                    "text": "Corn"
+                },
+                {
+                    "end_byte": 66961,
+                    "end_token": 1596,
+                    "start_byte": 66953,
+                    "start_token": 1595,
+                    "text": "Soybeans"
+                },
+                {
+                    "end_byte": 67057,
+                    "end_token": 1607,
+                    "start_byte": 67052,
+                    "start_token": 1606,
+                    "text": "Wheat"
+                },
+                {
+                    "end_byte": 67158,
+                    "end_token": 1618,
+                    "start_byte": 67151,
+                    "start_token": 1617,
+                    "text": "Alfalfa"
+                },
+                {
+                    "end_byte": 67256,
+                    "end_token": 1629,
+                    "start_byte": 67250,
+                    "start_token": 1628,
+                    "text": "Cotton"
+                },
+                {
+                    "end_byte": 67344,
+                    "end_token": 1640,
+                    "start_byte": 67341,
+                    "start_token": 1639,
+                    "text": "Hay"
+                },
+                {
+                    "end_byte": 67459,
+                    "end_token": 1655,
+                    "start_byte": 67452,
+                    "start_token": 1654,
+                    "text": "Tobacco"
+                },
+                {
+                    "end_byte": 67550,
+                    "end_token": 1666,
+                    "start_byte": 67546,
+                    "start_token": 1665,
+                    "text": "Rice"
+                },
+                {
+                    "end_byte": 67650,
+                    "end_token": 1677,
+                    "start_byte": 67643,
+                    "start_token": 1676,
+                    "text": "Sorghum"
+                },
+                {
+                    "end_byte": 67747,
+                    "end_token": 1688,
+                    "start_byte": 67741,
+                    "start_token": 1687,
+                    "text": "Barley"
+                }
+            ],
+            "yes_no_answer": "NONE"
+        }
+    ],
+    "document_text": "Agriculture in the United States - wikipedia <H1> Agriculture in the United States </H1> Jump to : navigation , search A wheat harvest in Idaho This photo from a 1921 encyclopedia shows a tractor plowing a crop field . <P> Agriculture is a major industry in the United States , which is a net exporter of food . As of the 2007 census of agriculture , there were 2.2 million farms , covering an area of 922 million acres ( 3,730,000 km ) , an average of 418 acres ( 169 hectares ) per farm . Although agricultural activity occurs in all states , it is particularly concentrated in the Great Plains , a vast expanse of flat , arable land in the center of the United States and in the region around the Great Lakes known as the Corn Belt . </P> ...(truncated for this sample)",
+    "document_url": "https://en.wikipedia.org//w/index.php?title=Agriculture_in_the_United_States&amp;oldid=820613422",
+    "example_id": -6570496346595661000,
+    "long_answer_candidates": [
+        {
+            "end_token": 143,
+            "start_token": 39,
+            "top_level": true
+        },
+        {
+            "end_token": 256,
+            "start_token": 143,
+            "top_level": true
+        },
+    ],
+    "question_text": "what are the main crops grown in the united states"
+}
