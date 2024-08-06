@@ -25,6 +25,7 @@ absl-py = "^2.1.0"
 lxml = "^5.2.2"
 html5lib = "^1.1"
 beautifulsoup4 = "^4.12.3"
+openpyxl = "^3.1.5"
 
 [build-system]
 requires = ["poetry-core"]
